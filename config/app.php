@@ -1,17 +1,8 @@
 <?php
 
-/*
- * Here goes the application configuration.
- */
 return [
-    /*
-     * Here goes the application name.
-     */
     'name' => 'Expedables CLI',
 
-    /*
-     * Here goes the application version.
-     */
     'version' => '0.0.1',
 
     /*
@@ -33,10 +24,6 @@ return [
      */
     'with-scheduler' => true,
 
-    /*
-     * Here goes the application list of Laravel Service Providers.
-     * Enjoy all the power of Laravel on your console.
-     */
     'providers' => [
         App\Providers\AppServiceProvider::class,
     ],
